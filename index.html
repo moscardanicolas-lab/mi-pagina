@@ -21,20 +21,35 @@
     <main>
         <section>
             <h2>Sobre este proyecto</h2>
-            <p>Esta es una página web simple creada con HTML y CSS para aprender Git y GitHub.</p>
-          </section>
+            <p>Esta es una página web simple creada con HTML, CSS y JavaScript para aprender Git y GitHub.</p>
+        </section>
 
-          <section>
-            <h2>Interacción con JavaScript</h2>
-            <button id="boton-mensaje">Haz clic aquí</button>
-            <p id="mensaje"></p>
+        <!-- 🔹 Interacciones dinámicas -->
+        <section>
+            <h2>Interacciones dinámicas</h2>
+
+            <!-- Botón contador -->
+            <button id="contadorBtn">Haz clic aquí</button>
+            <p>Has hecho <span id="contador">0</span> clics</p>
+
+            <!-- Botón para cambiar entre modo claro / oscuro -->
+            <button id="modoBtn">Cambiar modo oscuro / claro</button>
+        </section>
+
+        <!-- 🔹 Buscador de películas -->
+        <section>
+            <h2>Buscador de películas 🎥</h2>
+            <input type="text" id="inputPelicula" placeholder="Escribe el nombre de la película">
+            <button id="buscarPeliculaBtn">Buscar</button>
+            <div id="resultadoPeliculas"></div>
         </section>
     </main>
 
     <footer>
         <p>© 2025 Mi Página - Todos los derechos reservados</p>
     </footer>
-     <script src="script.js"></script>
+
+    <!-- Conexión con JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
-
